@@ -1,7 +1,7 @@
 package velet5.emklatz
 
-object Application extends App {
+object Application extends App with Components {
 
-  println("I'm alive")
+  apiEndpoint.start()
 
 }
