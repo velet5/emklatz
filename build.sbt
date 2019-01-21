@@ -12,5 +12,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % "2.5.19",
   "org.mongodb.scala" %% "mongo-scala-driver" % "2.5.0",
   "org.typelevel" %% "cats-core" % "1.5.0",
-  "ch.qos.logback" % "logback-classic" % "1.2.3"
+  "ch.qos.logback" % "logback-classic" % "1.2.3",
+  "com.github.pureconfig" %% "pureconfig" % "0.10.1"
 )
